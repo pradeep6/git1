@@ -25,5 +25,5 @@ git branch <branch name>
 git checkout <branch name>
 git merge <branchname> --> (You must be in destinaion branch)
 git rebase <branch name> --> for changing branches bases
-
+git push origin <branch name> --> (to push all the changes to server)
 
