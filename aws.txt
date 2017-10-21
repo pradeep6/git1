@@ -27,3 +27,9 @@ git merge <branchname> --> (You must be in destinaion branch)
 git rebase <branch name> --> for changing branches bases
 git push origin <branch name> --> (to push all the changes to server)
 
+ssh-keygen --> save the key in github (for token to be accepted the user must have password in ecc2)
+ssh -T git@github.com --> for authenticating github
+
+
+
+
