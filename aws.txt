@@ -1,0 +1,29 @@
+Linuxinstance ip: 18.220.83.89
+
+
+jenkins login
+
+admin
+jenkins
+
+---------------------
+
+git login
+
+pradeep6
+Pradeep@06
+
+
+yum install git (only by root)
+git init --> intiating repository
+git remote add origin "https://github.com/pradeep6/git1.git" --> adding server repository path to local
+git pull origin master --> pulling files from server repository
+git status --> to check status
+git add -A --> to add files to index (-A is for index)
+git commit -m -a --> commiting changes (-m message is compulsory, -a is for all changes)
+git branch <branch name> 
+git checkout <branch name>
+git merge <branchname> --> (You must be in destinaion branch)
+git rebase <branch name> --> for changing branches bases
+
+
