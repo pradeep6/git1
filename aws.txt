@@ -30,6 +30,6 @@ git push origin <branch name> --> (to push all the changes to server)
 ssh-keygen --> save the key in github (for token to be accepted the user must have password in ecc2)
 ssh -T git@github.com --> for authenticating github
 
-
+Completed jenkins
 
 
