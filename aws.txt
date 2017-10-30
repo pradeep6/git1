@@ -33,3 +33,4 @@ ssh -T git@github.com --> for authenticating github
 Completed jenkins
 
 
+sudo vi ~/.bash_profile --> for setting environment variables(Keep M2_HOME for maven)
