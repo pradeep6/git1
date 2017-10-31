@@ -1,0 +1,17 @@
+After installing Maven in the server get some example maven project and create a repository in github and 
+   drag maven project to the github repository. Here when you upload files src file doesnt upload to github. 
+   So you must drag the whole project into github repository or you can push then using push command in the server.
+
+4. Now open jenkins and select new item and select maven project and then go. If you dont find maven project there 
+   you need to install maven plugins in jenkins. 
+
+5. Go to manage jenkins and then manage plugins and then search maven plugins that connect to jenkins. 
+   ( Maven integration plugin) 
+
+6. Now go to new item and then select maven project and then configure and then clone git url in gitrepository 
+   and github project. Then it will show error in build coloumn saying "Jenkins need to know where maven installed".
+
+7. For that we need to go to global tool configuration and then select maven and let it know where maven is. 
+   Maven url (/opt/maven).
+
+8. Then build. It must provide target file where you can find jar file in it . Done .
